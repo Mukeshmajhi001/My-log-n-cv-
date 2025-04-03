@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg-img"></div>
+        <div class="content">
+            <form id="authForm">
+                <div>
+                    <input type="email" id="email" placeholder="Email" required />
+                    <input type="password" id="password" placeholder="Password" required />
+                </div>
+                <button type="button" onclick="login()">Log in</button>
+                <button type="button" onclick="signup()">Sign up</button>
+            </form>
+            <img src="name.jpg" width="100%" align="center" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
